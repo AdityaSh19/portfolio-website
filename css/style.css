@@ -212,20 +212,25 @@ span{
     margin-bottom: 5rem;
 }
 
-/* .skill-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 3%;
-} */
- .skill-container {
+.skill-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap; /* remove if you always want them on same line */
+  margin-bottom: 2rem;
 }
+
+.skill-box {
+  background: #2b2e3c;
+  padding: 2rem;
+  border-radius: 15px;
+  flex: 1 1 300px;
+  max-width: 320px;
+  color: white;
+  text-align: center;
+}
+
+
 
 .read-more-text{
     display: none;
