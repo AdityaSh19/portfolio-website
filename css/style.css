@@ -212,13 +212,19 @@ span{
     margin-bottom: 5rem;
 }
 
-.skill-container{
+/* .skill-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 3%;
+} */
+ .skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .read-more-text{
